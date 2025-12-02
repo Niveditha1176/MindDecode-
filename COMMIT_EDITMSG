@@ -1,0 +1,9 @@
+Remove exam prediction statistics from the UI
+
+Remove the "Questions in Model", "Topics Covered", and "Subject Focus" statistics from the Predictor page component.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: 45a2d087-93a0-4ff3-8c55-c40659d98bb0
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Event-Id: 316ff45e-2e7d-4a65-a317-924afb34121a
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/4e9d7f83-8ba3-48ed-bf39-ec8264d50c0a/45a2d087-93a0-4ff3-8c55-c40659d98bb0/HjjLrhV
