@@ -1,261 +1,255 @@
-# 🧠 MindDecode / PrepNOVA
+ ## MindDecode  - HackThrone project
+**Bridging Academic Intelligence and Emotional Resilience through AI**
 
-A stunning fullstack React application that predicts exam questions using AI and tracks mental wellness during study sessions.
+**Live Demo:**  
+🎯 https://prep-nova-minddecode.replit.app/
 
-## ✨ Features
+---
 
-- **Dual Authentication System**:
-  - **On Replit**: Replit Auth with Google, GitHub, Twitter/X, Apple, and Email/Password
-  - **On Localhost**: Simple email/password authentication for easy local development
-- **AI Exam Predictor** - Upload study materials and get AI-predicted exam questions
-- **Pomodoro Timer** - Stay focused with mood tracking during study sessions
-- **Mock Test Generator** - Practice with AI-generated questions and detailed analysis
-- **Interactive Dashboard** - Visualize your progress with beautiful charts
-- **Dark/Light Theme** - Smooth theme transitions with localStorage persistence
+## 🧩 Project Overview  
+**PrepNOVA – MindDecode** is an AI-powered academic wellness and mock test platform that empowers students to achieve balance between academic performance and mental well-being.
 
-## 🚀 Running on Replit
+Developed for a hackathon, it fuses **AI**, **Machine Learning (ML)**, and **EdTech innovation** to deliver:
 
-This project is already set up and running on Replit! Just click "Run" and it will start automatically.
+- Personalized study recommendations  
+- Cognitive wellness insights  
+- Adaptive mock testing  
+- Emotion-aware learning analytics  
 
-### First Time Setup
+---
 
-1. Click "Run" to start the application
-2. Click the "Log In to Get Started" button
-3. Choose your preferred login method:
-   - Google
-   - GitHub
-   - Twitter/X
-   - Apple
-   - Email/Password
+## 🌟 Key Features
 
-Your account will be created automatically and you'll have full access to all features!
+### 🤖 AI Chat Guidance  
+GPT-integrated chatbot for academic and emotional support, providing tailored study help and motivational nudges.
 
-## 💻 Running Locally (For Your Friend)
+---
 
-### Prerequisites
+### 📈 ML-Based Performance Predictor  
+A custom ML model built with **scikit-learn** to analyze:
 
-Your friend will need to install:
-1. **Node.js** (version 18 or higher) - Download from [nodejs.org](https://nodejs.org/)
-2. **PostgreSQL** - Download from [postgresql.org](https://www.postgresql.org/download/)
+- Past test scores  
+- Difficulty levels of subjects  
+- Cognitive load and stress trends  
 
-### Step 1: Get the Project Files
+It then predicts **focus areas for improvement**.
 
-If you exported the files, your friend should:
-1. Extract the ZIP file to a folder (like `PrepNOVA`)
-2. Open that folder
+---
 
-### Step 2: Install Dependencies
+### 🧠 Dynamic Mock Test Platform  
+- AI-curated mock tests  
+- Instant feedback  
+- Adaptive question difficulty  
+- Progress tracking  
 
-Open **PowerShell** or **Command Prompt** in the project folder and run:
+---
+
+### 📊 Performance Dashboard  
+Interactive visual dashboard that displays:
+
+- Topic-wise accuracy and performance  
+- Progress over time  
+- Personalized improvement suggestions  
+
+---
+
+## 🔐 Secure Authentication  
+Powered by **Clerk**, ensuring:
+
+- Encrypted sign-in / sign-up  
+- JWT-based user sessions  
+- Data privacy and protection  
+
+---
+
+## ☁️ Cloud & Replit Deployment  
+Deployed entirely on **Replit**, ensuring seamless accessibility and zero-setup execution.
+
+---
+
+
+## 🧠 Tech Stack  
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React + TypeScript (Vite) |
+| **Backend** | Node.js + Express + TypeScript |
+| **AI/ML** | OpenAI GPT API + Custom ML Predictor (Python) |
+| **Database** | PostgreSQL / SQLite |
+| **Authentication** | Clerk |
+| **Deployment** | Replit Cloud |
+
+---
+
+
+## 🏗️ Project Structure  
+```
+PrepNOVA/
+├── server/
+│   ├── index.ts
+│   ├── routes/
+│   ├── ml/
+│   └── middleware/
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   └── App.tsx
+├── data/
+│   └── db.sqlite
+├── .env
+└── README.md
+```
+---
+
+## 🔒 Security Implementation  
+
+- 🔑 Clerk Authentication for secure user access  
+- 🌐 HTTPS & Secure CORS policies  
+- 🧩 Encrypted environment variables for API keys  
+- 🧼 Database sanitization to prevent injection attacks  
+
+---
+
+## ⚙️ Workflow  
+
+1. 🧍 User logs in securely via Replit Authentication  
+2. 🧭 Chooses between **Mock Test** or **MindDecode (Predictor)** mode  
+3. 🧮 Backend processes test or prediction requests  
+4. 🧠 ML module generates insights and improvement focus areas  
+5. 📊 Dashboard visualizes performance metrics and recommendations  
+
+---
+
+## 🧪 Machine Learning Model  
+
+The MindDecode Predictor model evaluates:
+
+- 🧾 Past academic scores and metrics  
+- 🧠 Difficulty correlation between topics  
+- 💭 Cognitive load and stress patterns  
+
+Built With:
+
+- Python  
+- scikit-learn  
+- pandas / numpy  
+- Flask (REST API integration)  
+
+---
+
+
+---
+
+## 🔒 Security Implementation  
+
+- 🔑 Clerk Authentication for secure user access  
+- 🌐 HTTPS & Secure CORS policies  
+- 🧩 Encrypted environment variables for API keys  
+- 🧼 Database sanitization to prevent injection attacks  
+
+---
+
+## ⚙️ Workflow  
+
+1. 🧍 User logs in securely via Replit Authentication  
+2. 🧭 Chooses between **Mock Test** or **MindDecode (Predictor)** mode  
+3. 🧮 Backend processes test or prediction requests  
+4. 🧠 ML module generates insights and improvement focus areas  
+5. 📊 Dashboard visualizes performance metrics and recommendations  
+
+---
+
+## 🧪 Machine Learning Model  
+
+The MindDecode Predictor model evaluates:
+
+- 🧾 Past academic scores and metrics  
+- 🧠 Difficulty correlation between topics  
+- 💭 Cognitive load and stress patterns  
+
+Built With:
+
+- Python  
+- scikit-learn  
+- pandas / numpy  
+- Flask (REST API integration)  
+
+---
+
+## ⚡ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/aishwarya-mol-2046/mind_decode.git
+cd mind_decode
+```
+
+## 📦 Installation & Setup
+
+### 2️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
-**Note for Windows PowerShell users:** If you get a "scripts disabled" error, run this command first:
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+### 3️⃣ Configure Environment Variables
+
+Create a `.env` file and add:
+
+```env
+MODEL=auto
+OPENAI_API_KEY=your_openai_key_here
+GEMINI_API_KEY=optional_google_api_key
+DATABASE_URL=postgresql://postgres:password@localhost:5432/prepnova
 ```
 
-### Step 3: Set Up Environment Variables
-
-1. Create a file called `.env` in the root folder
-2. Add these lines to the file:
-   ```
-   DATABASE_URL=postgresql://username:password@localhost:5432/minddecode
-   SESSION_SECRET=your-random-secret-key-here
-   ```
-
-Replace:
-- `username:password@localhost:5432/minddecode` with your PostgreSQL connection details
-  - Example: `postgresql://postgres:mypassword@localhost:5432/minddecode`
-- `your-random-secret-key-here` with a random string (at least 32 characters)
-  - Example: Generate one with `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`
-
-**Important**: Do NOT include `REPL_ID` in your `.env` file! This tells the app to use local authentication instead of Replit Auth.
-
-### Step 4: Set Up the Database
-
-```bash
-npm run db:push
-```
-
-This creates the necessary database tables for users and sessions.
-
-### Step 5: Run the Application
+### 4️⃣ Run the App
 
 ```bash
 npm run dev
 ```
 
-The app will start on **http://localhost:5000**
+---
+# Screenshots of the output 
 
-Open your browser and go to `http://localhost:5000` to see the app!
+## Home page
+<img width="3038" height="1638" alt="image" src="https://github.com/user-attachments/assets/11b413b1-73d4-48f0-b9a6-17acd2696dce" />
 
-### Step 6: Create Your First Account (Localhost)
+## dashboard page
+<img width="3060" height="1616" alt="image" src="https://github.com/user-attachments/assets/2d024de9-8e8d-4244-a5d9-4eed4b99d0bf" />
 
-When running on localhost, you'll see a simple login/signup form:
+## AI questions predictor page
+  1. Upload the files for the needed subject
+  <img width="3012" height="1596" alt="image" src="https://github.com/user-attachments/assets/c3d2358e-36e6-4ea0-b95c-6cc53a136d5f" />
+  2. Predict the question paper for the given subject
+     <img width="3058" height="1619" alt="image" src="https://github.com/user-attachments/assets/80c706eb-8114-46c7-907a-7c2853c61890" />
+     <img width="3071" height="1560" alt="image" src="https://github.com/user-attachments/assets/e18da77d-2eea-42a7-9af6-f9aaef7e79e3" />
 
-1. Click "Log In to Get Started" button on the landing page
-2. You'll be taken to the login page
-3. Click "Don't have an account? Sign up" at the bottom
-4. Fill in your details:
-   - First Name (optional)
-   - Last Name (optional)
-   - Email (required)
-   - Password (minimum 6 characters)
-5. Click "Create Account"
-6. You're in! Start using the app
+## Promodoro Timer 
+   1. Start the timer
+   <img width="3056" height="1615" alt="image" src="https://github.com/user-attachments/assets/53600971-254c-4c1f-8112-a622cb4348f6" />
+   2. Stop when you feel out of focus and give your feedback
+      <img width="3021" height="1484" alt="image" src="https://github.com/user-attachments/assets/a69c54ca-f370-483a-986e-f798e397ef75" />
+   3. Click submit and continue to get your mood analysis
+      <img width="3035" height="1207" alt="image" src="https://github.com/user-attachments/assets/a1a06968-55dd-4791-8577-74e5b31e1ef0" />
 
-**To log in later:**
-1. Click "Log In to Get Started"
-2. Enter your email and password
-3. Click "Log In"
-
-The app automatically detects if you're on localhost or Replit and uses the appropriate authentication method!
-
-## 📁 Project Structure
-
-```
-PrepNOVA/
-├── client/              # Frontend React app
-│   └── src/
-│       ├── pages/       # All application pages
-│       ├── components/  # Reusable components
-│       ├── hooks/       # Custom React hooks (useAuth)
-│       └── lib/         # Utilities and helpers
-├── server/              # Backend Express server
-│   ├── replitAuth.ts    # Replit Auth setup (for Replit)
-│   ├── localAuth.ts     # Local auth setup (for localhost)
-│   ├── routes.ts        # API routes with environment detection
-│   ├── storage.ts       # Database operations
-│   └── db.ts            # Database connection
-├── shared/              # Shared types and schemas
-├── attached_assets/     # Images and media files
-└── package.json         # Project dependencies
-```
-
-## 🎨 Pages
-
-- **Landing** (`/`) - Beautiful landing page for logged-out users
-- **Home** (`/`) - Hero section with background image (logged in)
-- **Predictor** (`/predictor`) - AI exam question predictor
-- **Pomodoro** (`/pomodoro`) - Focus timer with mood tracking
-- **Mock Test** (`/mocktest`) - Practice tests with detailed analysis
-- **Dashboard** (`/dashboard`) - Interactive charts and statistics
-
-## 🛠️ Technologies Used
-
-- **Frontend:** React 18, TypeScript, Tailwind CSS, Framer Motion
-- **Backend:** Express.js, Node.js
-- **Database:** PostgreSQL with Drizzle ORM
-- **Authentication:** 
-  - Replit: Replit Auth (OpenID Connect) with multiple OAuth providers
-  - Localhost: Simple email/password with bcrypt hashing
-- **Charts:** Chart.js with react-chartjs-2
-- **Routing:** Wouter
-- **State Management:** TanStack Query
-- **Forms:** React Hook Form with Zod validation
-- **UI Components:** Radix UI (shadcn)
-
-## 🔧 Available Scripts
-
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run start    # Start production server
-npm run check    # TypeScript type checking
-npm run db:push  # Sync database schema
-```
-
-## 🌙 Theme Toggle
-
-The app supports both light and dark modes! Click the sun/moon icon in the navigation bar to switch themes. Your preference is saved automatically.
-
-## 🤖 AI-Powered Mock Test Generator
-
-The Mock Test feature generates practice exam questions **without requiring any paid AI API**! 
-
-### How It Works:
-- **Free by Default**: Uses a built-in question bank with 30+ high-quality questions across 6 subjects
-- **Multiple Difficulty Levels**: Easy, Medium, and Hard questions for each subject
-- **Subjects Available**: Mathematics, Physics, Computer Science, Chemistry, Biology
-- **Detailed Explanations**: Every question includes a detailed explanation
-
-### Optional: Gemini AI Integration
-If you want AI-generated questions instead of the built-in bank:
-1. Get a free Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Add to your Secrets (or `.env` for localhost): `GEMINI_API_KEY=your_key_here`
-3. The system will automatically use Gemini when available, falling back to the question bank if not
-
-**No setup required** - the app works perfectly without any AI API keys!
-
-## 🔐 Authentication
-
-This app uses a **dual authentication system** that automatically adapts to your environment:
-
-### On Replit (Replit Auth)
-- Multiple OAuth login options: Google, GitHub, Twitter/X, Apple
-- Plus traditional email/password
-- Secure OpenID Connect (OIDC) protocol
-- Automatic token refresh
-- Zero configuration required
-
-### On Localhost (Simple Email/Password)
-- Easy email and password registration
-- Bcrypt password hashing for security
-- PostgreSQL session storage
-- No external OAuth setup needed
-- Perfect for local development
-
-**The app automatically detects your environment** and uses the appropriate authentication method - no configuration needed!
-
-## 🐛 Troubleshooting
-
-### Port Already in Use
-If you see "address already in use" error:
-- Kill the process using port 5000
-- Or change the port in `vite.config.ts`
-
-### Database Connection Error
-- Make sure PostgreSQL is running
-- Check your DATABASE_URL in `.env`
-- Run `npm run db:push` to create tables
-
-### npm install fails
-- Make sure you have Node.js 18+ installed
-- Try deleting `node_modules` folder and `package-lock.json`, then run `npm install` again
-
-### Can't log in (Localhost)
-- Make sure the server is running (`npm run dev`)
-- Check server logs - should say "🔐 Using Local Auth (email/password)"
-- If you see "🔐 Using Replit Auth" but you're on localhost, make sure you DON'T have `REPL_ID` in your `.env` file
-- Clear browser cache and cookies
-- Try incognito/private mode
-
-### Can't log in (Replit)
-- Make sure you're logged into Replit itself
-- Check server logs - should say "🔐 Using Replit Auth"
-- Try closing the webview and opening it again
-
-## 📚 Additional Resources
-
-- [Replit Docs](https://docs.replit.com/) - Learn about Replit platform
-- [Replit Auth](https://docs.replit.com/replit-workspace/replit-auth) - Authentication documentation
-- [React Docs](https://react.dev/) - React documentation
-- [Tailwind CSS](https://tailwindcss.com/) - Styling framework
-
-## 📧 Support
-
-If you encounter any issues:
-1. Check the troubleshooting section above
-2. Look at browser console for error messages (Press F12)
-3. Check server logs in the terminal
-
-## 🎉 Enjoy!
-
-Your AI-powered study companion is ready to help you ace your exams! 🚀
+## Mock up test
+  1. Attend the questions  
+  <img width="3052" height="1614" alt="image" src="https://github.com/user-attachments/assets/5dcbbf06-be5c-479d-94b2-21618354f129" />
+  2. View result analysis, also have an option for retest
+     <img width="2669" height="1170" alt="image" src="https://github.com/user-attachments/assets/49af5980-05a3-4234-9c50-374a99b75f4b" />
 
 ---
 
-Made with ❤️ using React, TypeScript, and dual authentication (Replit Auth + Local Auth)
+## 📜 Author 
+**Niveditha Venkatesh**
+
+----
+
+## 📜 License 
+MIT License
+Copyright (c) 2025 Niveditha Venkatesh
+
+---
