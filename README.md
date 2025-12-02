@@ -1,4 +1,4 @@
-# 🚀 PrepNOVA – MindDecode  - HackThrone project 
+# MindDecode  - HackThrone project 
 **Bridging Academic Intelligence and Emotional Resilience through AI**
 
 **Live Demo:**  
@@ -213,8 +213,42 @@ npm run dev
 
 ---
 
-## 🤝 Contributors
+# Screenshots of the output 
+
+## Home page
+<img width="3038" height="1638" alt="image" src="https://github.com/user-attachments/assets/11b413b1-73d4-48f0-b9a6-17acd2696dce" />
+
+## dashboard page
+<img width="3060" height="1616" alt="image" src="https://github.com/user-attachments/assets/2d024de9-8e8d-4244-a5d9-4eed4b99d0bf" />
+
+## AI questions predictor page
+  1. Upload the files for the needed subject
+  <img width="3012" height="1596" alt="image" src="https://github.com/user-attachments/assets/c3d2358e-36e6-4ea0-b95c-6cc53a136d5f" />
+  2. Predict the question paper for the given subject
+     <img width="3058" height="1619" alt="image" src="https://github.com/user-attachments/assets/80c706eb-8114-46c7-907a-7c2853c61890" />
+     <img width="3071" height="1560" alt="image" src="https://github.com/user-attachments/assets/e18da77d-2eea-42a7-9af6-f9aaef7e79e3" />
+
+## Promodoro Timer 
+   1. start the timer
+   <img width="3056" height="1615" alt="image" src="https://github.com/user-attachments/assets/53600971-254c-4c1f-8112-a622cb4348f6" />
+   2. stop when you feel out of focus and give your feedback
+      <img width="3021" height="1484" alt="image" src="https://github.com/user-attachments/assets/a69c54ca-f370-483a-986e-f798e397ef75" />
+   3. click submit and continue to get your mood analysis
+      <img width="3035" height="1207" alt="image" src="https://github.com/user-attachments/assets/a1a06968-55dd-4791-8577-74e5b31e1ef0" />
+
+## Mock up test
+  1. attend the questions  
+  <img width="3052" height="1614" alt="image" src="https://github.com/user-attachments/assets/5dcbbf06-be5c-479d-94b2-21618354f129" />
+  2. view result analysis, also have an option for retest
+     <img width="2669" height="1170" alt="image" src="https://github.com/user-attachments/assets/49af5980-05a3-4234-9c50-374a99b75f4b" />
+
+
+## 📜 Author 
 **Niveditha Venkatesh**
+
+## 📜 License 
+MIT License
+Copyright (c) 2025 Niveditha Venkatesh
 
 
 
