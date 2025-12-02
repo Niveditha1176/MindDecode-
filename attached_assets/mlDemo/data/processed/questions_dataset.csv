@@ -1,0 +1,124 @@
+Subject,Question_Text,Marks,Question_Type,Difficulty_Level
+DSA,1. Solve the following recurrence relaƟon using Masters theorem. T(n) = 4 T(n/2) + n,2,Problem,Easy
+DSA,"2. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",5,Problem,Medium
+DSA,"3. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",2,Theory,Easy
+DSA,"4. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",2,Theory,Easy
+DSA,5. Design an algorithm to ﬁnd the index of the target Ɵmestamp in O(log n) Ɵme,2,Design,Easy
+DSA,"6. Given a binary tree, print its inorder, preorder, and postorder traversals (both recursive and iteraƟve methods)",5,Theory,Medium
+DSA,7. Detect a cycle in a linked list (Floyd’s Cycle DetecƟon),2,Problem,Easy
+DSA,8. The diameter is the length of the longest path between any two nodes. Find the diameter of a binary tree in O(n) Ɵme,2,Problem,Easy
+DSA,"9. Given an undirected graph, print Breadth- First Search (BFS) and Depth-First Search (DFS) traversals starƟng from a source node.",2,Theory,Easy
+DSA,"10. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",2,Problem,Easy
+DSA,11. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,2,Design,Easy
+DSA,"12. Given a weighted graph and a source node, ﬁnd the shortest path to all other nodes using Dijkstra’s algorithm.",5,Theory,Medium
+DSA,13. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,2,Design,Easy
+DSA,14. Detect a cycle in a linked list (Floyd’s Cycle DetecƟon),2,Problem,Easy
+DSA,"15. Given a directed graph, check whether it contains a cycle using DFS",2,Theory,Easy
+DSA,"16. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",2,Theory,Easy
+DSA,"17. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",2,Problem,Easy
+DSA,18. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,10,Design,Hard
+DSA,"19. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",2,Theory,Easy
+DSA,20. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,5,Design,Medium
+DSA,"21. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",5,Theory,Medium
+DSA,"22. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",2,Problem,Easy
+DSA,23. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,2,Design,Easy
+DSA,24. Detect a cycle in a linked list (Floyd’s Cycle DetecƟon),10,Problem,Hard
+DSA,25. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,2,Design,Easy
+DSA,"26. Given a string, ﬁnd the length of the longest substring without repeaƟng characters. Example: ""abcabcbb"" → Output: 3 (""abc"")",5,Theory,Medium
+DSA,"27. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",10,Theory,Hard
+DSA,28. Design an algorithm to ﬁnd the index of the target Ɵmestamp in O(log n) Ɵme,5,Design,Medium
+DSA,"29. Given a string, ﬁnd the length of the longest substring without repeaƟng characters. Example: ""abcabcbb"" → Output: 3 (""abc"")",2,Theory,Easy
+DSA,30. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,2,Design,Easy
+DSA,"31. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",2,Theory,Easy
+DSA,DSA Strong Dataset – University Level,2,Problem,Easy
+DSA,Q1. Explain time and space complexity analysis with examples.,10,Theory,Hard
+DSA,Q2. Design an algorithm to reverse a linked list using recursion.,2,Design,Easy
+DSA,"Q3. Explain the difference between binary tree, BST, and AVL tree.",5,Theory,Medium
+DSA,Q4. Write pseudocode for merge sort and explain its working.,2,Theory,Easy
+DSA,Q5. Design a stack using two queues and analyze its complexity.,2,Design,Easy
+DSA,Q6. Explain hash table collision and how chaining resolves it.,5,Theory,Medium
+DSA,Q7. Implement Dijkstra’s algorithm and explain with an example graph.,10,Theory,Hard
+DSA,Q8. What is the difference between BFS and DFS traversal?,2,Theory,Easy
+DSA,Q9. Explain dynamic programming using the Fibonacci example.,2,Theory,Easy
+DSA,Q10. Explain the divide and conquer strategy with Merge Sort.,2,Theory,Easy
+DSA,Q11. Write an algorithm to find the intersection of two linked lists.,2,Problem,Easy
+DSA,Q12. Design a queue using two stacks and discuss complexity.,10,Derivation,Hard
+DSA,Q13. Explain recursion depth and stack overflow with examples.,5,Theory,Medium
+DSA,Q14. Implement binary search and explain its best and worst cases.,10,Theory,Hard
+DSA,Q15. Describe heap operations and use cases of priority queues.,2,Theory,Easy
+DSA,Q16. Explain topological sorting and its real-life applications.,2,Theory,Easy
+DSA,Q17. What is a spanning tree? Explain Kruskal’s algorithm.,5,Theory,Medium
+DSA,Q18. Explain adjacency matrix vs adjacency list representation.,2,Theory,Easy
+DSA,Q19. What is memoization and how does it improve performance?,5,Theory,Medium
+DSA,Q20. Describe Floyd-Warshall algorithm for all pairs shortest path.,5,Theory,Medium
+DSA,Q21. Explain the working of quick sort and its average complexity.,5,Theory,Medium
+DSA,Q22. Explain graph coloring and its applications.,2,Theory,Easy
+DSA,Q23. Discuss the importance of Big-O notation in algorithm design.,10,Derivation,Hard
+DSA,Q24. What is a circular linked list and its advantages?,2,Theory,Easy
+DSA,Q25. Explain the concept of recursion tree and time complexity.,5,Theory,Medium
+DSA,Q26. Discuss Bellman-Ford algorithm and how it differs from Dijkstra.,10,Derivation,Hard
+DSA,Q27. Explain why dynamic programming avoids repeated subproblems.,2,Theory,Easy
+DSA,Q28. Explain how binary search tree insertion and deletion work.,2,Theory,Easy
+DSA,Q29. Design an algorithm to find all leaf nodes in a binary tree.,2,Design,Easy
+DSA,Q30. Discuss how to detect cycles in a directed graph.,2,Derivation,Easy
+DSA,Q31. Explain different tree traversal techniques with examples.,5,Theory,Medium
+DSA,Q32. Implement quick sort and discuss space complexity.,10,Derivation,Hard
+DSA,Q33. Explain greedy algorithms with examples.,2,Theory,Easy
+DSA,Q34. What are the benefits and limitations of recursion?,5,Problem,Medium
+DSA,Q35. Explain Huffman coding algorithm for data compression.,2,Theory,Easy
+DSA,Q36. What are red-black trees and why are they used?,2,Problem,Easy
+DSA,Q37. Explain graph traversal order using BFS and DFS on a sample graph.,10,Theory,Hard
+DSA,Q38. Describe Prim’s algorithm with example.,5,Theory,Medium
+DSA,Q39. Explain binary heap structure and operations.,2,Theory,Easy
+DSA,Q40. Write a function to check if a string is a palindrome using stack.,10,Problem,Hard
+DSA,Q41. What is hashing? Explain open addressing with example.,2,Theory,Easy
+DSA,Q42. Design an LRU cache using a doubly linked list and hash map.,2,Design,Easy
+DSA,Q43. Explain how quicksort works with partitioning logic.,2,Theory,Easy
+DSA,Q44. Discuss how recursion is implemented internally using call stack.,2,Derivation,Easy
+DSA,Q45. Explain the use of adjacency list for sparse graphs.,10,Theory,Hard
+DSA,Q46. What is the difference between a min-heap and a max-heap?,2,Theory,Easy
+DSA,Q47. Explain divide and conquer with an example other than sorting.,5,Theory,Medium
+DSA,Q48. Design an algorithm to detect loop in a linked list.,2,Design,Easy
+DSA,Q49. Write an algorithm to check if a graph is bipartite.,5,Problem,Medium
+DSA,Q50. Explain stack vs heap memory management.,2,Theory,Easy
+DSA,Q51. Discuss the working of AVL tree rotations.,5,Derivation,Medium
+DSA,Q52. Rephrase: Describe divide and conquer with an example other than sorting.,2,Theory,Easy
+DSA,Q53. Rephrase: Analyze Bellman-Ford algorithm and how it differs from Dijkstra.,10,Problem,Hard
+DSA,Q54. Rephrase: Describe recursion depth and stack overflow with examples.,5,Theory,Medium
+DSA,Q55. Rephrase: What are the benefits and limitations of recursion?,5,Problem,Medium
+DSA,Q56. Rephrase: Describe the divide and conquer strategy with Merge Sort.,2,Theory,Easy
+DSA,Q57. Rephrase: Implement Dijkstra’s algorithm and explain with an example graph.,2,Theory,Easy
+DSA,Q58. Rephrase: Write an algorithm to find the intersection of two linked lists.,10,Problem,Hard
+DSA,Q59. Rephrase: Describe why dynamic programming avoids repeated subproblems.,5,Theory,Medium
+DSA,Q60. Rephrase: What is the difference between BFS and DFS traversal?,2,Theory,Easy
+DSA,Q61. Rephrase: Describe Huffman coding algorithm for data compression.,10,Theory,Hard
+DSA,Q62. Rephrase: Design a stack using two queues and analyze its complexity.,2,Design,Easy
+DSA,Q63. Rephrase: What is hashing? Describe open addressing with example.,5,Theory,Medium
+DSA,Q64. Rephrase: Analyze the importance of Big-O notation in algorithm design.,2,Design,Easy
+DSA,Q65. Rephrase: Analyze the working of AVL tree rotations.,5,Problem,Medium
+DSA,Q66. Rephrase: What is a spanning tree? Describe Kruskal’s algorithm.,2,Theory,Easy
+DSA,Q67. Rephrase: Write a function to check if a string is a palindrome using stack.,2,Problem,Easy
+DSA,Q68. Rephrase: Describe stack vs heap memory management.,2,Theory,Easy
+DSA,Q69. Rephrase: Describe Prim’s algorithm with example.,10,Theory,Hard
+DSA,Q70. Rephrase: Analyze how recursion is implemented internally using call stack.,5,Design,Medium
+DSA,Q71. Rephrase: Describe topological sorting and its real-life applications.,10,Theory,Hard
+DSA,DSA Strong Dataset – University Level (Set 2) Part A – Short Answer (2 Marks Each),2,Problem,Easy
+DSA,1. Define time complexity and space complexity with examples.,2,Theory,Easy
+DSA,2. Differentiate between stack and queue.,5,Problem,Medium
+DSA,3. What is recursion? Give a simple recursive example.,5,Theory,Medium
+DSA,4. Define linked list. How is it different from an array?,2,Theory,Easy
+DSA,5. What are asymptotic notations? Explain Big O with example.,2,Theory,Easy
+DSA,6. List the advantages of binary search over linear search.,10,Problem,Hard
+DSA,8. Define graph. What are directed and undirected graphs?,5,Theory,Medium
+DSA,9. Explain hashing. What is collision resolution?,5,Theory,Medium
+DSA,10. Write the main difference between DFS and BFS. Part B – Long Answer (5 Marks Each),5,Problem,Medium
+DSA,11. Write and explain the Merge Sort algorithm with example.,2,Theory,Easy
+DSA,"12. Describe how Binary Search Tree (BST) operations (insert, delete, traverse) work.",2,Theory,Easy
+DSA,13. Explain Dijkstra’s algorithm for shortest path with an example graph.,2,Theory,Easy
+DSA,14. Illustrate Quick Sort with example and explain its time complexity.,2,Theory,Easy
+DSA,15. Explain how stacks can be used for expression evaluation.,10,Theory,Hard
+DSA,16. Discuss Dynamic Programming with an example (Fibonacci or Knapsack).,2,Derivation,Easy
+DSA,17. Compare AVL Tree and B-Tree with use cases.,2,Problem,Easy
+DSA,18. Explain Hash Table operations and their average time complexity.,5,Theory,Medium
+DSA,19. Discuss Graph traversal algorithms with examples.,2,Derivation,Easy
+DSA,20. Explain Queue implementation using linked list.,10,Theory,Hard

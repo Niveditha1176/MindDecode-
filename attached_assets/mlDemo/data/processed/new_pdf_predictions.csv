@@ -1,0 +1,32 @@
+Question_Text,Predicted_Topic,Most_Similar_Question,Similarity_Score
+1. Solve the following recurrence relaƟon using Masters theorem. T(n) = 4 T(n/2) + n,Recursion,1. Solve the following recurrence relaƟon using Masters theorem. T(n) = 4 T(n/2) + n,1.0000002
+"2. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",Linked List,"2. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",1.0
+"3. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",Array,"3. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",1.0000001
+"4. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",Array,"4. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",1.0000001
+5. Design an algorithm to ﬁnd the index of the target Ɵmestamp in O(log n) Ɵme,Algorithm,5. Design an algorithm to ﬁnd the index of the target Ɵmestamp in O(log n) Ɵme,1.0
+"6. Given a binary tree, print its inorder, preorder, and postorder traversals (both recursive and iteraƟve methods)",Tree,,
+7. Detect a cycle in a linked list (Floyd’s Cycle DetecƟon),Linked List,,
+8. The diameter is the length of the longest path between any two nodes. Find the diameter of a binary tree in O(n) Ɵme,Tree,,
+"9. Given an undirected graph, print Breadth- First Search (BFS) and Depth-First Search (DFS) traversals starƟng from a source node.",Graph,,
+"10. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",Linked List,,
+11. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+"12. Given a weighted graph and a source node, ﬁnd the shortest path to all other nodes using Dijkstra’s algorithm.",Graph,,
+13. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+14. Detect a cycle in a linked list (Floyd’s Cycle DetecƟon),Linked List,,
+"15. Given a directed graph, check whether it contains a cycle using DFS",Graph,,
+"16. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",Array,,
+"17. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",Linked List,,
+18. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+"19. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",Array,,
+20. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+"21. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",Array,,
+"22. Given the head of a linked list, determine if there is a cycle in it using Floyd’s cycle detecƟon algorithm.",Linked List,,
+23. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+24. Detect a cycle in a linked list (Floyd’s Cycle DetecƟon),Linked List,,
+25. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+"26. Given a string, ﬁnd the length of the longest substring without repeaƟng characters. Example: ""abcabcbb"" → Output: 3 (""abc"")",Misc,,
+"27. Given an array, print the next greater element for every element in the array. If no greater element exists, print -1",Array,,
+28. Design an algorithm to ﬁnd the index of the target Ɵmestamp in O(log n) Ɵme,Algorithm,,
+"29. Given a string, ﬁnd the length of the longest substring without repeaƟng characters. Example: ""abcabcbb"" → Output: 3 (""abc"")",Misc,,
+30. Implement a queue with the standard enqueue() and dequeue() operaƟons using only two stacks.,Stack/Queue,,
+"31. Given an array of integers and a target value, return the indices of the two numbers that add up to the target. Input: [2,7,11,15], target = 9 → Output: [0,1]",Array,,
